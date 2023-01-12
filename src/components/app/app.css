@@ -1,0 +1,21 @@
+.main{
+    height: 100vh;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    background: url("./img/mainBgTest.jpg") center/contain no-repeat fixed;
+    position: relative;
+}
+.todo-container{
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #fff;
+    /*max-width: 400px;*/
+    width: 33vw;
+    height: 33vw;
+    overflow: hidden;
+    position: fixed;
+    top: 60%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+}
