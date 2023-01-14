@@ -3,7 +3,7 @@
     /*display: flex;*/
     /*align-items: center;*/
     /*justify-content: center;*/
-    background: url("./img/mainBgTest.jpg") center/contain no-repeat fixed;
+    background: url("./img/todoBg.jpg") center/contain fixed;
     position: relative;
 }
 .todo-container{
@@ -11,11 +11,33 @@
     border: 1px solid #000;
     background: #fff;
     /*max-width: 400px;*/
-    width: 33vw;
-    height: 33vw;
+    width: 100%;
+    max-width: 400px;
     overflow: hidden;
     position: fixed;
     top: 60%;
     left: 49.5%;
     transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.search-panel{
+    display: flex;
+    justify-content: space-between;
+}
+.search-input{
+    width: 50%;
+}
+.add-todo{
+    display: flex;
+    justify-content: space-between;
+}
+.add-input{
+    width: 70%;
 }
